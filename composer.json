@@ -1,0 +1,15 @@
+{
+    "name": "cdsrc/minify",
+    "type": "typo3-flow-package",
+    "description": "Flow3 portage of mrclay/minify",
+    "require": {
+        "typo3/flow": "*",
+        
+        "mrclay/minify": "2.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "CDSRC\\Minify": "Classes"
+        }
+    }
+}

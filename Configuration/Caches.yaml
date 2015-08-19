@@ -1,0 +1,4 @@
+Cdsrc_Minify_Content_Storage:
+  backend: TYPO3\Flow\Cache\Backend\FileBackend
+  # By default lifetime is 1 week
+  defaultLifeTime: 604800 
