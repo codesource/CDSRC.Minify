@@ -42,6 +42,11 @@ class MinifyViewHelper extends \TYPO3\Fluid\Core\ViewHelper\AbstractViewHelper {
      */
     protected $minifier;
 
+	/**
+	 * {@inheritdoc}
+	 */
+	protected $escapeOutput = FALSE;
+
     /**
      * Minify css and js files
      * 
