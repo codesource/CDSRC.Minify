@@ -10,8 +10,8 @@ namespace CDSRC\Minify\Service;
 
 use TYPO3\Flow\Annotations as Flow;
 
-require_once(FLOW_PATH_PACKAGES . 'Libraries/minify/min/lib/Minify.php');
-require_once(FLOW_PATH_PACKAGES . 'Libraries/minify/min/lib/Minify/Loader.php');
+require_once(FLOW_PATH_PACKAGES . 'Libraries/mrclay/minify/min/lib/Minify.php');
+require_once(FLOW_PATH_PACKAGES . 'Libraries/mrclay/minify/min/lib/Minify/Loader.php');
 
 /**
  * Description of Minifier
